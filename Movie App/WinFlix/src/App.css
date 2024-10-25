@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Header Styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar .logo h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px; /* Creates spacing between links */
+}
+
+.navbar .nav-links li {
+  margin: 0; /* Removes extra margins */
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none; /* Removes underline by default */
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #777474; /* Changes color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1; /* Ensures main content takes the remaining space */
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Creates spacing between footer links */
+}
+
+.footer-links li {
+  margin: 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none; /* Removes underline by default */
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #777474; /* Changes color on hover */
+}
+
+/* Active and Not-Active Nav Styles */
+.active {
+  color: #ffffff;
+  background-color: #333;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+}
+
+.not-active {
+  color: #555555;
+  background-color: transparent;
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+.not-active:hover {
+  color: #000000;
+}
+
+/* Error Page Styles */
+.error-container {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-tag {
+  text-decoration: none;
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.error-tag:hover {
+  background-color: #ff4a3a;
+}

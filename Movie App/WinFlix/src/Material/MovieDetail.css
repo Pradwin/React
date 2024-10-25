@@ -1,0 +1,70 @@
+/* Movie container styling */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .poster img {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .movie-details {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .movie-details h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .movie-details p.plot {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .movie-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-details ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .movie-details ul li strong {
+    font-weight: bold;
+  }
+  
+  /* Ensure the NavLink button stays at the bottom */
+  .movie-container a {
+    align-self: flex-start; /* Keeps the button aligned within the container */
+    margin-top: auto;       /* Pushes the button to the bottom */
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-container a:hover {
+    background-color: #555;
+  }
+  

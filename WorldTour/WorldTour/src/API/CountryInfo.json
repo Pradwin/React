@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "United States",
+      "capital": "Washington, D.C.",
+      "fact": "The United States is home to the world’s largest economy.",
+      "population": 331002651
+    },
+    {
+      "id": 2,
+      "name": "Canada",
+      "capital": "Ottawa",
+      "fact": "Canada has the longest coastline of any country in the world.",
+      "population": 37742154
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "capital": "Brasília",
+      "fact": "Brazil is the largest producer of coffee in the world.",
+      "population": 212559417
+    },
+    {
+      "id": 4,
+      "name": "Germany",
+      "capital": "Berlin",
+      "fact": "Germany is known for having over 1,500 different types of beer.",
+      "population": 83783942
+    },
+    {
+      "id": 5,
+      "name": "India",
+      "capital": "New Delhi",
+      "fact": "India is the world's largest democracy.",
+      "population": 1380004385
+    },
+    {
+      "id": 6,
+      "name": "Japan",
+      "capital": "Tokyo",
+      "fact": "Japan is home to more than 6,800 islands.",
+      "population": 126476461
+    },
+    {
+      "id": 7,
+      "name": "Australia",
+      "capital": "Canberra",
+      "fact": "Australia has more kangaroos than people.",
+      "population": 25499884
+    },
+    {
+      "id": 8,
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "fact": "South Africa has three capital cities: Pretoria, Bloemfontein, and Cape Town.",
+      "population": 59308690
+    }
+  ]
+  

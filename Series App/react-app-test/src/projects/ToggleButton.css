@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 1000px;
+    background-color: grey;
+    margin-top: 100px;
+    border-radius: 15%;
+  }
+  
+  .boxy {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 200px;
+    width: 800px;
+    border-radius: 15%;
+    position: relative; 
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  span {
+    color: white;
+    font-size: 20px;
+    align-self: center;
+  }
+  
+  .on {
+    background-color: #4caf50;
+    transform: translateX(-280px); 
+  }
+  
+  .off {
+    background-color: #f44336;
+    transform: translateX(280px); 
+  }
+  

@@ -1,0 +1,30 @@
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; /* This line positions the footer at the bottom */
+}
+
+
+.footer-links {
+  margin: 10px 0; 
+}
+
+.footer-links a {
+  color: white; 
+  text-decoration: none; 
+  margin: 0 15px; 
+  transition: color 0.3s; 
+}
+
+.footer-links a:hover {
+  color: #757777; 
+}
+
+.footer p {
+  margin: 5px 0; 
+  font-size: 14px; 
+}
